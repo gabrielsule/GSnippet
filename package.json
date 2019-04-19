@@ -1,0 +1,26 @@
+{
+    "name": "gsinippet",
+    "displayName": "GSinippet",
+    "description": "Dummy de un snippet de NodeJS",
+    "version": "1.0.0",
+    "publisher": "Gabriel",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gabrielsule/gsnippet"
+    },
+    "icon": "batman.ico",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
